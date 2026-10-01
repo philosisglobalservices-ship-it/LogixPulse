@@ -74,6 +74,7 @@ const MainLayout: React.FC = () => {
       <Navbar 
         onOpenScanner={() => setIsScannerOpen(true)} 
         onOpenSupabase={() => setIsSupabaseOpen(true)}
+        onNavigate={setCurrentTab}
       />
 
       {/* Main Body with Sidebar + View Content */}
